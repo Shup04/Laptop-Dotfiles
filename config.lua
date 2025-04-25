@@ -122,9 +122,9 @@ lvim.plugins = {
 }
 
 lvim.colorscheme = "gruvy"
-require("gruvy").setup({
+-- require("gruvy").setup({
   -- your custom options here (see gruvy.nvim README for details)
-})
+-- })
 
 table.insert(lvim.plugins, {
   "zbirenbaum/copilot-cmp",
@@ -137,4 +137,3 @@ table.insert(lvim.plugins, {
     end, 100)
   end,
 })
-
